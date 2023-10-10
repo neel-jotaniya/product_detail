@@ -1,3 +1,4 @@
+import re
 import os
 import time
 import pandas as pd
@@ -17,6 +18,12 @@ driver = None  # Initialize a single WebDriver instance
 def setup():
     if not os.path.exists("pdfs"):
         os.makedirs("pdfs")
+
+def get_page_num(data):
+    matches = re.findall(r'\b20\b', data)
+    last_match = matches[-1]
+    return last_match
+    
 
 def create_driver():
     options = webdriver.FirefoxOptions()
@@ -44,6 +51,8 @@ def scrape_pdf(url, data):
     pdf_name_tag = soup.find('h5', class_='viewer__title')
     pdf_name = ''.join(pdf_name_tag.find_all(text=True, recursive=False))
     pdf_name = pdf_name.replace(" ", "")
+    page_no_tag = soup.find('div', attrs={'xpath':'//*[@id="viewer"]/nav/div/div[1]'})
+    page_no = get_page_num(page_no_tag.text)
     faq = dict()
     questions_div = soup.find_all('div', attrs={'class':'faq__row'})
     for q in questions_div:
