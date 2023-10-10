@@ -23,6 +23,8 @@ def create_driver():
 def setup():
     if not os.path.exists("pdfs"):
         os.makedirs("pdfs")
+    if not os.path.exists("temp"):
+        os.makedirs("temp")
 
 def get_page_num(data):
     matches = re.findall(r'\b\d+\b', data)
