@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import pandas
 import pandas as pd
 
 def scrape_info(url, data):
@@ -49,6 +48,8 @@ def main(url):
     total_page = int(link.split("=")[1])
     i = 1
     while i != total_page:
+        response = requests.get(f"https://www.manua.ls/?p={i}")
+        soup = BeautifulSoup(response.content, 'html.parser')
         products = soup.find_all('div', attrs={'class': 'product-listing__item d-flex justify-content-between align-items-center pl-0'})
         for product in products:
             product_url = product.find('a').get('href')
@@ -60,4 +61,5 @@ def main(url):
             all_data.append(data)
             df = pd.DataFrame(all_data)
             df.to_csv('data.csv', index=False)
+        i += 1
 main('https://www.manua.ls/')
