@@ -106,10 +106,10 @@ def scrape_data(url, only_5):
         print("https://www.manua.ls" + product_url)
         data = dict()
         # try:
-        scrape_pdf("https://www.manua.ls" + product_url, data)
+        #     scrape_pdf("https://www.manua.ls" + product_url, data)
         # except Exception as e:
-        print("Something wrong with:", "https://www.manua.ls" + product_url)
-            # print(e)
+        #     print("Something wrong with:", "https://www.manua.ls" + product_url)
+        #     print(e)
         scrape_info("https://www.manua.ls" + product_url.replace("manual", "specifications"), data)
         print(data)
         all_data.append(data)
@@ -119,10 +119,10 @@ def scrape_data(url, only_5):
 def run(url):
     setup()
     global driver
-    driver = create_driver()
+    # driver = create_driver()
     main_url = url
-    scrape_data(main_url, only_5=True) #scrape only five product
-    driver.quit()
+    scrape_data(main_url, only_5=False) #scrape only five product
+    # driver.quit()
 
 run('https://www.manua.ls/audio/microphones') # run function can scrape all detali from all product that available at given url
 # scrape_pdf('https://www.manua.ls/blue-microphones/yeti/manual', dict())
