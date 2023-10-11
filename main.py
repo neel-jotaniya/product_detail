@@ -54,8 +54,8 @@ def main(url):
             product_url = product.find('a').get('href')
             print("https://www.manua.ls" + product_url)
             data = dict()
-            scrape_info("https://www.manua.ls" + product_url.replace("manual", "specifications"), data)
-            scrape_FAQ("https://www.manua.ls"+product_url, data)
+            scrape_info("https://www.manua.ls" + product_url.replace("manual", "specifications"), data) #scrape information
+            scrape_FAQ("https://www.manua.ls"+product_url, data)  #scrape FAQs
             print(data)
             all_data.append(data)
             df = pd.DataFrame(all_data)
