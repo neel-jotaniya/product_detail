@@ -91,38 +91,45 @@ def scrape_info(url, data):
             value = info[1].text
             data[key] = value
 
-def scrape_data(url, only_5):
-    global product_count
+def main(url):
     response = requests.get(url)
+    all_data = []
+    setup()
+    global driver
+    driver = create_driver()
+    if response.status_code != 200: 
+        return
     soup = BeautifulSoup(response.content, 'html.parser')
-    products = soup.find_all('div', attrs={'class': 'product-listing__item d-flex justify-content-between align-items-center pl-0'})
-    print("products:", len(products))
-    for product in products:
-        print(product_count)
-        product_count += 1
-        if only_5 and product_count > 5:
-            break
-        product_url = product.find('a').get('href')
-        print("https://www.manua.ls" + product_url)
-        data = dict()
-        # try:
-        #     scrape_pdf("https://www.manua.ls" + product_url, data)
-        # except Exception as e:
-        #     print("Something wrong with:", "https://www.manua.ls" + product_url)
-        #     print(e)
-        scrape_info("https://www.manua.ls" + product_url.replace("manual", "specifications"), data)
-        print(data)
-        all_data.append(data)
-        df = pd.DataFrame(all_data)
-        df.to_csv('data.csv', index=False)
+    pagination = soup.find('ul', attrs={'class':'pagination'})
+    li = pagination.find_all('li')
+    link = li[-1].find('a').get('href')
+    total_page = int(link.split("=")[1])
+    i = 1
+    while i != total_page:
+        response = requests.get(f"https://www.manua.ls/?p={i}")
+        soup = BeautifulSoup(response.content, 'html.parser')
+        products = soup.find_all('div', attrs={'class': 'product-listing__item d-flex justify-content-between align-items-center pl-0'})
+        for product in products:
+            product_url = product.find('a').get('href')
+            print("https://www.manua.ls" + product_url)
+            data = dict()
+            scrape_info("https://www.manua.ls" + product_url.replace("manual", "specifications"), data) #scrape information
+            # scrape_FAQ("https://www.manua.ls"+product_url, data)  #scrape FAQs
+            scrape_pdf("https://www.manua.ls"+product_url, data)
+            print(data)
+            all_data.append(data)
+            df = pd.DataFrame(all_data)
+            df.to_csv('data.csv', index=False)
+        i += 1
+# main('https://www.manua.ls/')
 
 def run(url):
     setup()
     global driver
-    # driver = create_driver()
+    driver = create_driver()
     main_url = url
-    scrape_data(main_url, only_5=False) #scrape only five product
-    # driver.quit()
+    main(main_url) #scrape only five product
+    driver.quit()
 
-run('https://www.manua.ls/audio/microphones') # run function can scrape all detali from all product that available at given url
-# scrape_pdf('https://www.manua.ls/blue-microphones/yeti/manual', dict())
+run('https://www.manua.ls/') # run function can scrape all detali from all product that available at given url
+

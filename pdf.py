@@ -2,6 +2,7 @@ from PyPDF2 import PdfFileWriter, PdfFileReader,PdfFileMerger
 import os
 import glob
 import time
+
 def remove_blank():
     files = os.listdir('temp')
     print(len(files))

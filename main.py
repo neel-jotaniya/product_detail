@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+from old import scrape_pdf, setup, create_driver
+driver = None
 
 def scrape_info(url, data):
     description = ['Brand', 'Model', 'Product', 'Language', 'Filetype']
@@ -39,6 +41,9 @@ def scrape_FAQ(url, data):
 def main(url):
     response = requests.get(url)
     all_data = []
+    setup()
+    global driver
+    driver = create_driver()
     if response.status_code != 200: 
         return
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -56,7 +61,8 @@ def main(url):
             print("https://www.manua.ls" + product_url)
             data = dict()
             scrape_info("https://www.manua.ls" + product_url.replace("manual", "specifications"), data) #scrape information
-            scrape_FAQ("https://www.manua.ls"+product_url, data)  #scrape FAQs
+            # scrape_FAQ("https://www.manua.ls"+product_url, data)  #scrape FAQs
+            scrape_pdf("https://www.manua.ls"+product_url, data)
             print(data)
             all_data.append(data)
             df = pd.DataFrame(all_data)
