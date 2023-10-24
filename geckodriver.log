@@ -1,0 +1,163 @@
+1698089260195	geckodriver	INFO	Listening on 127.0.0.1:54443
+1698089263246	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54444" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91884\\AppData\\Local\\Temp\\rust_mozprofile946j0l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698089264145	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698089264427	Marionette	INFO	Listening on port 54453
+WebDriver BiDi listening on ws://127.0.0.1:54444
+Read port: 54453
+1698089264827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54444/devtools/browser/726dd051-98de-4141-b38d-cf43c10bf007
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 1194 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 5319 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 412 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 3848 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 6771 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 6532 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698089282889	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698089288167	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 6315 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698089302263	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698089599332	geckodriver	INFO	Listening on 127.0.0.1:52026
+1698089602370	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52027" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91884\\AppData\\Local\\Temp\\rust_mozprofileRcTYUt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698089603086	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698089603328	Marionette	INFO	Listening on port 52035
+WebDriver BiDi listening on ws://127.0.0.1:52027
+Read port: 52035
+1698089603731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52027/devtools/browser/0860697f-d7bc-4832-80e3-ad3ab3a0e55f
+1698089713188	geckodriver	INFO	Listening on 127.0.0.1:52130
+1698089716243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91884\\AppData\\Local\\Temp\\rust_mozprofileqn7hHi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698089716964	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698089717191	Marionette	INFO	Listening on port 52159
+WebDriver BiDi listening on ws://127.0.0.1:52131
+Read port: 52159
+1698089717475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52131/devtools/browser/9fa06e7c-0c48-4541-9ea1-fc402436339d
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 1786 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 4461 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 5938 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 5728 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698089742094	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 3866 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1698089762940	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 5548 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 3095 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 5984 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 535 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698089878968	geckodriver	INFO	Listening on 127.0.0.1:64290
+1698089882015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91884\\AppData\\Local\\Temp\\rust_mozprofileP9I1IH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698089882794	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698089883047	Marionette	INFO	Listening on port 64298
+WebDriver BiDi listening on ws://127.0.0.1:64291
+Read port: 64298
+1698089883490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64291/devtools/browser/202a4464-d1fb-4269-9cea-a474d774260a
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 5690 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 5330 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 4333 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 3007 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer, line 152: Script terminated by timeout at:
+ia@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:152:419
+zn@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:346:429
+Jo@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:370:254
+dq@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:382:724
+eq@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:382:604
+aa.zm@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:558:491
+aa.ym/h/<@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:550:113
+Qj@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:297:260
+ck@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:300:349
+h@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:550:99
+c@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:344:169
+vn@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:345:269
+aa.ym@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:550:136
+c@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:568:903
+Gw@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:432:298
+Fw.prototype.flush@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:435:266
+Fw.prototype.push@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:433:207
+yw@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:430:434
+TF/<@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:569:153
+aa.Dk/<@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:522:126
+aa.Dk/c/<@https://www.manua.ls/gtag?id=G-D6VDV20VYH&l=dataLayer:521:420
+
+1698089897703	Marionette	INFO	Stopped listening on port 64298
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1698089909905	geckodriver	INFO	Listening on 127.0.0.1:64559
+1698089912940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64560" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91884\\AppData\\Local\\Temp\\rust_mozprofileWtLGiA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698089913557	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698089913831	Marionette	INFO	Listening on port 64568
+Read port: 64568
+WebDriver BiDi listening on ws://127.0.0.1:64560
+1698089913968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64560/devtools/browser/7b6d9092-dca4-4ba7-abcc-c950acf659d9
+1698090182474	geckodriver	INFO	Listening on 127.0.0.1:64649
+1698090185505	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64650" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91884\\AppData\\Local\\Temp\\rust_mozprofilewQcBR6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698090186202	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698090186429	Marionette	INFO	Listening on port 64657
+WebDriver BiDi listening on ws://127.0.0.1:64650
+Read port: 64657
+1698090186832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64650/devtools/browser/f6fc3726-edf9-4d13-97f3-8c3bc0633ce2
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 7311 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 5914 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 7420 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 6142 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698090209334	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698090209372	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698090209864	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698090213575	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698090213586	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698090213588	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698090256368	geckodriver	INFO	Listening on 127.0.0.1:55826
+1698090259410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55827" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91884\\AppData\\Local\\Temp\\rust_mozprofileNRVGnj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698090260083	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698090260311	Marionette	INFO	Listening on port 55837
+WebDriver BiDi listening on ws://127.0.0.1:55827
+Read port: 55837
+1698090260721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55827/devtools/browser/89ccc011-f00d-49c7-97a8-5bb12ab25ea1
+1698090265777	geckodriver	INFO	Listening on 127.0.0.1:55859
+1698090268800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55860" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91884\\AppData\\Local\\Temp\\rust_mozprofiledJCIXh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698090269455	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698090269696	Marionette	INFO	Listening on port 55878
+WebDriver BiDi listening on ws://127.0.0.1:55860
+Read port: 55878
+1698090270097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55860/devtools/browser/5a0c3934-99c5-4cf4-9f29-1dbeb23021dd
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 1819 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fg1jvL24cYOsK8VxUglH5dJJKR_J-UqzKL0jjVNvNUA.js line 2 > eval line 604 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 7063 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698090288570	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698090292532	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kdR3Uc-Lch-XuU6BJZRbuWDa0aJJ9it8wzNxgvcOl3M.js line 2 > eval line 4276 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698090307544	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+IPDL protocol Error: Received an invalid file descriptor
+console.error: ({})
